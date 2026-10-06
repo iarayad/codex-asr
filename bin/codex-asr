@@ -1,0 +1,4 @@
+#!/bin/sh
+CODEX_ASR_ROOT=${CODEX_ASR_ROOT:-"$HOME/.local/lib/codex-asr"}
+export PYTHONPATH="$CODEX_ASR_ROOT${PYTHONPATH:+:$PYTHONPATH}"
+exec /usr/bin/python3 -m codex_asr.cli "$@"

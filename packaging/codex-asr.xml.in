@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component>
+  <name>org.freedesktop.IBus.CodexASR</name>
+  <description>Codex-backed dictation input method</description>
+  <exec>@EXEC@ engine</exec>
+  <version>0.1.0</version>
+  <author>Isidora</author>
+  <license>MIT</license>
+  <homepage>https://github.com/iarayad/codex-asr</homepage>
+  <textdomain>codex-asr</textdomain>
+  <engines>
+    <engine>
+      <name>codex-asr</name>
+      <longname>Codex Dictation</longname>
+      <description>Ctrl+Shift+Space: tap to toggle dictation or hold to talk</description>
+      <language>en</language>
+      <license>MIT</license>
+      <author>Isidora</author>
+      <icon>audio-input-microphone-symbolic</icon>
+      <layout>us</layout>
+      <symbol>🎙</symbol>
+    </engine>
+  </engines>
+</component>
