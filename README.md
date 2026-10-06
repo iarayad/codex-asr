@@ -97,5 +97,3 @@ The tests have no dependencies and do not need a network, microphone or IBus:
 ```bash
 /usr/bin/python3 -m unittest discover -v
 ```
-
-`IMPLEMENTATION_PROMPT.md` is a specification for porting this tool to macOS.
