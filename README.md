@@ -1,5 +1,10 @@
 # Codex ASR
 
+> [!NOTE]
+> I built this for my own use, and an AI coding agent wrote all of the code and
+> documentation. I've only tested it on my own machine. It's shared as-is, with
+> no support or maintenance planned.
+
 Dictation for Ubuntu GNOME that uses your existing Codex CLI login instead of an
 OpenAI API key. It runs as an IBus input method, so it types into the focused
 application and works on Wayland.
